@@ -10,7 +10,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 /*
  * TODO clean up this whole entire getter/setter bullshit and boolean mess
  */
-@SuppressWarnings("unused")
 public class Lifeguard implements Comparable<Object> {
 
 	static AtomicInteger ai = new AtomicInteger(1);
